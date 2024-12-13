@@ -28,7 +28,36 @@ import {
   Legend,
   ResponsiveContainer
 } from 'recharts';
+// const randomCode = () => {
+//   const randomArray = Array.from({ length: 10 }, () => Math.floor(Math.random() * 100));
+//   const randomObject = randomArray.reduce((acc, num, index) => {
+//     acc[`key${index}`] = num;
+//     return acc;
+//   }, {});
 
+//   const randomFunction = (num) => {
+//     return num * 2;
+//   };
+
+//   const randomString = "This is a random string for demonstration purposes.";
+
+//   console.log("Random Array:", randomArray);
+//   console.log("Random Object:", randomObject);
+//   console.log("Random String:", randomString);
+
+//   const transformedArray = randomArray.map(randomFunction);
+//   console.log("Transformed Array:", transformedArray);
+
+//   return {
+//     randomArray,
+//     randomObject,
+//     randomString,
+//     transformedArray
+//   };
+// };
+
+// const randomData = randomCode();
+// console.log("Random Data:", randomData);
 // Categories for energy appliances
 const CATEGORIES = {
   'Major Appliances': ['Refrigerator', 'Washing Machine', 'Dryer', 'Dishwasher', 'Microwave Oven', 
