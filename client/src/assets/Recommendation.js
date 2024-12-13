@@ -62,7 +62,17 @@ const Recommendations = () => {
           Impact Score: 480kg CO2/year
         </Badge>
       </div>
-
+{/* <div> extension addition code</div>
+<div className="flex items-center justify-between">
+  <Button variant="primary" className="flex items-center gap-2">
+    <Lightbulb className="w-4 h-4" />
+    Add New Recommendation
+  </Button>
+  <Button variant="secondary" className="flex items-center gap-2">
+    <ShoppingBag className="w-4 h-4" />
+    View All Recommendations
+  </Button>
+</div> */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {recommendations.map((recommendation, index) => (
           <motion.div key={index} variants={itemVariants}>

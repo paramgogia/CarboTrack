@@ -42,6 +42,8 @@ function App() {
                <Route path="/calculator" element={<CarbonFootprintCalculator />} />
                <Route path="/map" element={<GeolocationMap />} />
                 <Route path="/carpool" element={<RideBooking />} />
+{/*                 
+                <Route path="/carpool" element={<RideBooking />} /> */}
               </Routes>
             </main>
             <FloatingChatButton />
